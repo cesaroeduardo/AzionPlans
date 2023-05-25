@@ -1,6 +1,6 @@
-import { FunctionComponent, useCallback } from "react";
+import { useCallback } from "react";
 import "./Header.css";
-const Header: FunctionComponent = () => {
+const Header = () => {
   const onNavItemContainerClick = useCallback(() => {
     //TODO: [INSERIR] Aqui deve abrir o BigMenu de produtos.
   }, []);

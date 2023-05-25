@@ -1,7 +1,7 @@
-import { FunctionComponent, useCallback } from "react";
+import { useCallback } from "react";
 import Card from "./Card";
 import "./SectionPrincing.css";
-const SectionPrincing: FunctionComponent = () => {
+const SectionPrincing = () => {
   const onAnchorContainerClick = useCallback(() => {
     const anchor = document.querySelector(
       "[data-scroll-to='planInfoContainer']"

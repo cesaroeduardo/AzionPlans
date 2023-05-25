@@ -1,6 +1,5 @@
-import { FunctionComponent } from "react";
 import "./SectionTalkexpert.css";
-const SectionTalkexpert: FunctionComponent = () => {
+const SectionTalkexpert = () => {
   return (
     <div className="section-talkexpert">
       <div className="content32">

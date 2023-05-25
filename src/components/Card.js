@@ -1,11 +1,5 @@
-import { FunctionComponent } from "react";
 import "./Card.css";
-
-type CardType = {
-  title?: string;
-};
-
-const Card: FunctionComponent<CardType> = ({ title }) => {
+const Card = ({ title }) => {
   return (
     <div className="card3">
       <div className="content33">

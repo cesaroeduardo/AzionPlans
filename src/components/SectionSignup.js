@@ -1,6 +1,5 @@
-import { FunctionComponent } from "react";
 import "./SectionSignup.css";
-const SectionSignup: FunctionComponent = () => {
+const SectionSignup = () => {
   return (
     <div className="section-signup">
       <div className="content31">

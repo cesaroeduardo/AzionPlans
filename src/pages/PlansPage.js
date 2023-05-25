@@ -1,4 +1,3 @@
-import { FunctionComponent } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Dropdown, DropdownButton, SplitButton } from "react-bootstrap";
 import Header from "../components/Header";
@@ -7,7 +6,7 @@ import SectionSignup from "../components/SectionSignup";
 import SectionTalkexpert from "../components/SectionTalkexpert";
 import SectionPrincing from "../components/SectionPrincing";
 import "./PlansPage.css";
-const PlansPage: FunctionComponent = () => {
+const PlansPage = () => {
   return (
     <div className="plans-page">
       <Header />
