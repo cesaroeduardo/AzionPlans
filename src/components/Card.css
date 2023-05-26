@@ -1,24 +1,24 @@
-.price5,
-.title5 {
+.price7,
+.title9 {
   position: relative;
 }
-.title5 {
+.title9 {
   align-self: stretch;
   font-size: var(--special-large-1600-headline-h5-size);
   line-height: 150%;
 }
-.price5 {
+.price7 {
   line-height: 180%;
 }
 .if-you-want {
-  color: var(--dark-text-medium);
+  color: var(--light-text-text-color-weak);
 }
-.description23 {
+.description90 {
   align-self: stretch;
   position: relative;
   line-height: 180%;
 }
-.content33 {
+.content46 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -26,23 +26,23 @@
   justify-content: flex-start;
   gap: var(--gap-5xs);
 }
-.label20 {
+.label32 {
   position: relative;
   font-size: var(--special-large-1600-body-small-size);
   letter-spacing: -0.01em;
   line-height: 16px;
   text-transform: lowercase;
   font-weight: 500;
-  font-family: var(--global-details);
-  color: var(--dark-background-super);
+  font-family: var(--special-large-1600-headline-h2);
+  color: var(--light-text-text-color-strong);
   text-align: left;
 }
-.icon184 {
+.icon279 {
   position: relative;
   width: 16px;
   height: 16px;
 }
-.button16 {
+.button28 {
   cursor: pointer;
   border: 0;
   padding: var(--padding-base);
@@ -54,7 +54,7 @@
   justify-content: flex-start;
   gap: var(--gap-base);
 }
-.card3 {
+.card14 {
   flex: 1;
   border-radius: var(--br-9xs);
   background-color: var(--dark-background-base);
@@ -67,15 +67,15 @@
   justify-content: space-between;
   text-align: left;
   font-size: var(--special-large-1600-body-medium-default-size);
-  color: var(--type-dark-h1h2h6);
-  font-family: var(--global-details);
+  color: var(--super-light-theme);
+  font-family: var(--special-large-1600-headline-h2);
 }
 @media screen and (max-width: 960px) {
-  .content33 {
+  .content46 {
     padding-bottom: var(--padding-11xl);
     box-sizing: border-box;
   }
-  .card3 {
+  .card14 {
     flex: unset;
     height: auto;
     align-self: stretch;

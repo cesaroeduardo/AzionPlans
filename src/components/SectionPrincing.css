@@ -1,4 +1,4 @@
-.badge-child2 {
+.badge-child8 {
   position: absolute;
   height: 96%;
   width: 100%;
@@ -9,13 +9,13 @@
   border-radius: 50%;
   background-color: var(--primary-color-primary);
 }
-.b5 {
+.b11 {
   position: absolute;
   top: 4%;
   left: 29.17%;
   line-height: 150%;
 }
-.badge5 {
+.badge11 {
   position: relative;
   width: 24px;
   height: 25px;
@@ -29,21 +29,21 @@
   display: inline-block;
   width: 1600px;
 }
-.description24,
-.title6 {
+.description91,
+.title10 {
   position: relative;
   line-height: 140%;
   display: flex;
   align-items: center;
   width: 1600px;
 }
-.description24 {
+.description91 {
   font-size: var(--special-large-1600-body-medium-default-size);
   line-height: 180%;
-  color: var(--dark-text-medium);
+  color: var(--light-text-text-color-weak);
   width: 784px;
 }
-.text35 {
+.text385 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -51,25 +51,23 @@
   gap: var(--gap-13xl);
   font-size: var(--special-large-1600-headline-h2-size);
 }
-.price6,
-.title7 {
+.title11 {
   position: relative;
-}
-.title7 {
   font-size: var(--special-large-1600-headline-h5-size);
   line-height: 150%;
   display: flex;
   align-items: center;
   width: 312px;
 }
-.price6 {
+.price8 {
   align-self: stretch;
+  position: relative;
   line-height: 180%;
 }
 .for-customers-looking {
-  color: var(--dark-text-medium);
+  color: var(--light-text-text-color-weak);
 }
-.content34 {
+.content47 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -77,23 +75,23 @@
   justify-content: flex-start;
   gap: var(--gap-5xs);
 }
-.label21 {
+.label33 {
   position: relative;
   font-size: var(--special-large-1600-body-small-size);
   letter-spacing: -0.01em;
   line-height: 16px;
   text-transform: lowercase;
   font-weight: 500;
-  font-family: var(--global-details);
-  color: var(--dark-background-super);
+  font-family: var(--special-large-1600-headline-h2);
+  color: var(--light-text-text-color-strong);
   text-align: left;
 }
-.icon185 {
+.icon280 {
   position: relative;
   width: 16px;
   height: 16px;
 }
-.button17 {
+.button29 {
   cursor: pointer;
   border: 0;
   padding: var(--padding-base);
@@ -105,7 +103,7 @@
   justify-content: flex-start;
   gap: var(--gap-base);
 }
-.card4 {
+.card15 {
   flex: 1;
   border-radius: var(--br-9xs);
   background-color: var(--dark-background-base);
@@ -117,45 +115,41 @@
   align-items: flex-start;
   justify-content: space-between;
 }
-.title8 {
-  align-self: stretch;
+.title12 {
   font-size: var(--special-large-1600-headline-h5-size);
-  line-height: 150%;
 }
-.price8,
-.title8,
-.title9 {
-  position: relative;
-}
-.title9 {
+.title12,
+.title13 {
   align-self: stretch;
+  position: relative;
   line-height: 150%;
 }
-.price8 {
-  font-size: var(--special-large-1600-headline-h6-size);
+.price10 {
+  position: relative;
+  font-size: var(--special-large-1600-body-large-size);
   line-height: 170%;
   font-weight: 500;
 }
-.description27 {
+.description94 {
   align-self: stretch;
   position: relative;
   font-size: var(--special-large-1600-body-medium-default-size);
   line-height: 180%;
 }
-.content38 {
+.content51 {
   align-self: stretch;
   flex-direction: column;
   padding: 0 0 var(--padding-11xl);
   gap: var(--gap-5xs);
 }
-.content37,
-.content38,
-.row5 {
+.content50,
+.content51,
+.row94 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.content37 {
+.content50 {
   flex: 1;
   border-radius: var(--br-9xs);
   background-color: var(--dark-background-base);
@@ -166,7 +160,7 @@
   gap: var(--gap-5xl);
   font-size: var(--special-large-1600-headline-h5-size);
 }
-.row5 {
+.row94 {
   align-self: stretch;
   flex-direction: row;
   gap: var(--gap-13xl);
@@ -174,37 +168,41 @@
 }
 .check-the-features {
   position: relative;
+  font-size: var(--special-large-1600-body-large-size);
   line-height: 170%;
   font-weight: 500;
+  font-family: var(--special-large-1600-headline-h2);
+  color: var(--light-text-text-color-weak);
+  text-align: left;
 }
-.icon188 {
+.icon283 {
   position: relative;
   width: 24px;
   height: 24px;
 }
 .anchor,
-.chevron-right {
+.chevron-right13 {
   display: flex;
   flex-direction: row;
 }
-.chevron-right {
+.chevron-right13 {
   align-items: flex-start;
   justify-content: flex-start;
   transform: rotate(90deg);
   transform-origin: 0 0;
 }
 .anchor {
-  align-self: stretch;
+  cursor: pointer;
+  border: 0;
   padding: var(--padding-base) var(--padding-13xl);
+  background-color: transparent;
+  align-self: stretch;
   align-items: center;
   justify-content: center;
   gap: var(--gap-base);
-  cursor: pointer;
-  font-size: var(--special-large-1600-headline-h6-size);
-  color: var(--dark-text-medium);
 }
 .badge-parent,
-.section-princing {
+.section-pricing {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -214,56 +212,56 @@
 .badge-parent {
   gap: var(--gap-29xl);
 }
-.section-princing {
-  background-color: var(--dark-background-super);
+.section-pricing {
+  background-color: var(--light-text-text-color-strong);
   padding: var(--padding-77xl) var(--padding-141xl) var(--padding-117xl);
   text-align: left;
   font-size: var(--special-large-1600-body-small-size);
-  color: var(--type-dark-h1h2h6);
-  font-family: var(--global-details);
+  color: var(--super-light-theme);
+  font-family: var(--special-large-1600-headline-h2);
 }
 @media screen and (max-width: 1200px) {
-  .description24,
-  .title6 {
+  .description91,
+  .title10 {
     align-self: stretch;
     width: auto;
   }
-  .text35 {
+  .text385 {
     height: auto;
   }
   .badge-parent,
-  .text35 {
+  .text385 {
     align-self: stretch;
     width: auto;
   }
 }
 @media screen and (max-width: 960px) {
-  .content34 {
+  .content47 {
     padding-bottom: var(--padding-11xl);
     box-sizing: border-box;
   }
-  .card4 {
+  .card15 {
     flex: unset;
     height: auto;
     align-self: stretch;
   }
-  .content38 {
+  .content51 {
     padding-bottom: var(--padding-11xl);
     box-sizing: border-box;
   }
-  .content37,
-  .row5 {
+  .content50,
+  .row94 {
     align-self: stretch;
     height: auto;
   }
-  .content37 {
+  .content50 {
     flex: unset;
   }
-  .row5 {
+  .row94 {
     width: auto;
     flex-direction: column;
   }
-  .section-princing {
+  .section-pricing {
     height: auto;
     padding-left: 8%;
     padding-right: 8%;

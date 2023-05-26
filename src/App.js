@@ -5,6 +5,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import PlansPage from "./pages/PlansPage";
+import PricingPage from "./pages/PricingPage";
 import { useEffect } from "react";
 
 function App() {
@@ -27,6 +28,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/pricing-page":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -46,6 +51,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<PlansPage />} />
+      <Route path="/pricing-page" element={<PricingPage />} />
     </Routes>
   );
 }

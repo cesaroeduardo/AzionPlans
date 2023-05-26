@@ -1,7 +1,4 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Dropdown, DropdownButton, SplitButton } from "react-bootstrap";
-import Header from "../components/Header";
-import SectionIntroduction from "../components/SectionIntroduction";
+import SectionBanner from "../components/SectionBanner";
 import SectionSignup from "../components/SectionSignup";
 import SectionTalkexpert from "../components/SectionTalkexpert";
 import SectionPrincing from "../components/SectionPrincing";
@@ -9,12 +6,18 @@ import "./PlansPage.css";
 const PlansPage = () => {
   return (
     <div className="plans-page">
-      <Header />
-      <SectionIntroduction />
+      <SectionBanner
+        title="How do you pay for Azion?"
+        description="Our usage-based pricing model gives you the freedom to customize your choice for more efficiency paying for what you use"
+        tagline="pricing model"
+      />
       <SectionSignup />
       <SectionTalkexpert />
       <SectionPrincing />
-      <div className="section-features">
+      <div
+        className="section-features"
+        data-scroll-to="sectionFeaturesContainer"
+      >
         <div className="plan-headers">
           <div className="headers">
             <div className="first">
@@ -27,7 +30,7 @@ const PlansPage = () => {
                   <div className="tagmain">
                     <b className="label">Recommended</b>
                     <div className="external-link">
-                      <img className="icon" alt="" src="/icon11.svg" />
+                      <img className="icon" alt="" src="/icon7.svg" />
                     </div>
                   </div>
                 </div>
@@ -46,7 +49,7 @@ const PlansPage = () => {
               </div>
               <div className="button1">
                 <div className="label1">Label</div>
-                <img className="icon1" alt="" src="/icon4.svg" />
+                <img className="icon1" alt="" src="/icon8.svg" />
               </div>
             </div>
             <div className="planheader">
@@ -56,7 +59,7 @@ const PlansPage = () => {
                   <div className="tagmain">
                     <b className="label">Recommended</b>
                     <div className="external-link">
-                      <img className="icon" alt="" src="/icon11.svg" />
+                      <img className="icon" alt="" src="/icon7.svg" />
                     </div>
                   </div>
                 </div>
@@ -74,11 +77,11 @@ const PlansPage = () => {
               </div>
               <div className="button2">
                 <div className="label1">get business</div>
-                <img className="icon1" alt="" src="/icon12.svg" />
+                <img className="icon1" alt="" src="/icon9.svg" />
               </div>
               <div className="button1">
                 <div className="label1">contact us</div>
-                <img className="icon1" alt="" src="/icon12.svg" />
+                <img className="icon1" alt="" src="/icon9.svg" />
               </div>
             </div>
             <div className="planheader">
@@ -88,7 +91,7 @@ const PlansPage = () => {
                   <div className="tagmain">
                     <b className="label">Recommended</b>
                     <div className="external-link">
-                      <img className="icon" alt="" src="/icon11.svg" />
+                      <img className="icon" alt="" src="/icon7.svg" />
                     </div>
                   </div>
                 </div>
@@ -104,11 +107,11 @@ const PlansPage = () => {
               </div>
               <div className="button2">
                 <div className="label1">get enterprise</div>
-                <img className="icon1" alt="" src="/icon4.svg" />
+                <img className="icon1" alt="" src="/icon8.svg" />
               </div>
               <div className="button1">
                 <div className="label1">contact us</div>
-                <img className="icon1" alt="" src="/icon4.svg" />
+                <img className="icon1" alt="" src="/icon8.svg" />
               </div>
             </div>
             <div className="planheader">
@@ -118,7 +121,7 @@ const PlansPage = () => {
                   <div className="tagmain">
                     <b className="label">Recommended</b>
                     <div className="external-link">
-                      <img className="icon" alt="" src="/icon11.svg" />
+                      <img className="icon" alt="" src="/icon7.svg" />
                     </div>
                   </div>
                 </div>
@@ -133,23 +136,37 @@ const PlansPage = () => {
               </div>
               <div className="button2">
                 <div className="label1">get mission critical</div>
-                <img className="icon1" alt="" src="/icon4.svg" />
+                <img className="icon1" alt="" src="/icon8.svg" />
               </div>
               <div className="button1">
                 <div className="label1">contact us</div>
-                <img className="icon1" alt="" src="/icon4.svg" />
+                <img className="icon1" alt="" src="/icon8.svg" />
               </div>
             </div>
           </div>
         </div>
-        <div className="plan-info" data-scroll-to="planInfoContainer">
+        <div className="plan-headers-responsive">
+          <div className="chips">
+            <div className="chips1">Developer</div>
+          </div>
+          <div className="chips2">
+            <div className="chips1">Business</div>
+          </div>
+          <div className="chips2">
+            <div className="chips1">Enterprise</div>
+          </div>
+          <div className="chips2">
+            <div className="chips1">Mission Critical</div>
+          </div>
+        </div>
+        <div className="content">
           <div className="table">
             <div className="tableheader">
               <div className="header">Product Features</div>
             </div>
             <div className="featurerow">
               <div className="featurecell">
-                <div className="content">
+                <div className="content1">
                   <div className="feature-name">
                     Access to all Azion products
                   </div>
@@ -162,35 +179,35 @@ const PlansPage = () => {
               <div className="cell">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon13.svg" />
+                    <img className="icon1" alt="" src="/icon10.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell1">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon14.svg" />
+                    <img className="icon1" alt="" src="/icon11.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell2">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon13.svg" />
+                    <img className="icon1" alt="" src="/icon10.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell3">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon13.svg" />
+                    <img className="icon1" alt="" src="/icon10.svg" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="featurerow1">
               <div className="featurecell">
-                <div className="content">
+                <div className="content1">
                   <div className="feature-name">Beta Access</div>
                   <div className="description">
                     Azion might give early access to new features for customers
@@ -203,35 +220,35 @@ const PlansPage = () => {
               <div className="cell">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon13.svg" />
+                    <img className="icon1" alt="" src="/icon12.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell1">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon15.svg" />
+                    <img className="icon1" alt="" src="/icon13.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell2">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon16.svg" />
+                    <img className="icon1" alt="" src="/icon14.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell3">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon17.svg" />
+                    <img className="icon1" alt="" src="/icon15.svg" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="featurerow2">
               <div className="featurecell2">
-                <div className="content">
+                <div className="content1">
                   <div className="feature-name">Uptime SLA</div>
                   <div className="description">Description</div>
                 </div>
@@ -239,7 +256,7 @@ const PlansPage = () => {
               <div className="cell8">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon16.svg" />
+                    <img className="icon1" alt="" src="/icon14.svg" />
                   </div>
                 </div>
               </div>
@@ -255,7 +272,7 @@ const PlansPage = () => {
             </div>
             <div className="featurerow3">
               <div className="featurecell3">
-                <div className="content3">
+                <div className="content4">
                   <div className="feature-name3">Unmetered DDoS Protection</div>
                   <div className="description">
                     We will give our customers unmetered mitigation during a
@@ -265,7 +282,7 @@ const PlansPage = () => {
                 <div className="infotooltip">
                   <div className="icon">
                     <div className="icon30">
-                      <img className="icon31" alt="" src="/icon18.svg" />
+                      <img className="icon31" alt="" src="/icon16.svg" />
                     </div>
                     <div className="tooltip">
                       <div className="arrow">
@@ -315,35 +332,35 @@ const PlansPage = () => {
               <div className="cell">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon13.svg" />
+                    <img className="icon1" alt="" src="/icon12.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell1">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon14.svg" />
+                    <img className="icon1" alt="" src="/icon17.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell2">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon13.svg" />
+                    <img className="icon1" alt="" src="/icon12.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell3">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon13.svg" />
+                    <img className="icon1" alt="" src="/icon12.svg" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="featurerow4">
               <div className="featurecell">
-                <div className="content">
+                <div className="content1">
                   <div className="feature-name">Single Sign On (SSO)</div>
                   <div className="description">Federated authentication</div>
                 </div>
@@ -351,35 +368,35 @@ const PlansPage = () => {
               <div className="cell">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon16.svg" />
+                    <img className="icon1" alt="" src="/icon14.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell1">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon15.svg" />
+                    <img className="icon1" alt="" src="/icon13.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell2">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon13.svg" />
+                    <img className="icon1" alt="" src="/icon12.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell3">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon13.svg" />
+                    <img className="icon1" alt="" src="/icon12.svg" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="featurerow5">
               <div className="featurecell5">
-                <div className="content">
+                <div className="content1">
                   <div className="feature-name">Edge Network Custom Maps</div>
                   <div className="description">Description</div>
                 </div>
@@ -387,14 +404,14 @@ const PlansPage = () => {
               <div className="cell8">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon16.svg" />
+                    <img className="icon1" alt="" src="/icon14.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell8">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon15.svg" />
+                    <img className="icon1" alt="" src="/icon13.svg" />
                   </div>
                 </div>
               </div>
@@ -407,7 +424,7 @@ const PlansPage = () => {
               <div className="cell8">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon13.svg" />
+                    <img className="icon1" alt="" src="/icon12.svg" />
                   </div>
                 </div>
               </div>
@@ -419,7 +436,7 @@ const PlansPage = () => {
             </div>
             <div className="featurerow6">
               <div className="featurecell6">
-                <div className="content">
+                <div className="content1">
                   <div className="feature-name">Tech Support Options</div>
                   <div className="description">
                     Can open tickets via ticket and email, reporting bugs and
@@ -430,7 +447,7 @@ const PlansPage = () => {
               <div className="cell">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon16.svg" />
+                    <img className="icon1" alt="" src="/icon14.svg" />
                   </div>
                 </div>
               </div>
@@ -446,7 +463,7 @@ const PlansPage = () => {
             </div>
             <div className="featurerow7">
               <div className="featurecell3">
-                <div className="content3">
+                <div className="content4">
                   <div className="feature-name3">Techical Support SLA</div>
                   <div className="description">
                     Azion might give early access to new features for customers
@@ -458,7 +475,7 @@ const PlansPage = () => {
                 <div className="infotooltip1">
                   <div className="icon">
                     <div className="icon30">
-                      <img className="icon31" alt="" src="/icon18.svg" />
+                      <img className="icon31" alt="" src="/icon16.svg" />
                     </div>
                     <div className="tooltip">
                       <div className="arrow">
@@ -505,35 +522,35 @@ const PlansPage = () => {
               <div className="cell">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon16.svg" />
+                    <img className="icon1" alt="" src="/icon14.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell1">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon14.svg" />
+                    <img className="icon1" alt="" src="/icon17.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell2">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon13.svg" />
+                    <img className="icon1" alt="" src="/icon12.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell3">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon13.svg" />
+                    <img className="icon1" alt="" src="/icon12.svg" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="featurerow8">
               <div className="featurecell3">
-                <div className="content3">
+                <div className="content4">
                   <div className="feature-name3">Education Programs</div>
                   <div className="description">
                     Unlimited access to documentation, guides, whitepapers and
@@ -543,7 +560,7 @@ const PlansPage = () => {
                 <div className="infotooltip">
                   <div className="icon">
                     <div className="icon30">
-                      <img className="icon31" alt="" src="/icon18.svg" />
+                      <img className="icon31" alt="" src="/icon16.svg" />
                     </div>
                     <div className="tooltip">
                       <div className="arrow">
@@ -590,35 +607,35 @@ const PlansPage = () => {
               <div className="cell">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon13.svg" />
+                    <img className="icon1" alt="" src="/icon12.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell1">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon14.svg" />
+                    <img className="icon1" alt="" src="/icon17.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell2">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon13.svg" />
+                    <img className="icon1" alt="" src="/icon12.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell3">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon13.svg" />
+                    <img className="icon1" alt="" src="/icon12.svg" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="featurerow9">
               <div className="featurecell9">
-                <div className="content">
+                <div className="content1">
                   <div className="feature-name">Custom Education Programs</div>
                   <div className="description">Description</div>
                 </div>
@@ -626,14 +643,14 @@ const PlansPage = () => {
               <div className="cell">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon16.svg" />
+                    <img className="icon1" alt="" src="/icon14.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell1">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon15.svg" />
+                    <img className="icon1" alt="" src="/icon13.svg" />
                   </div>
                 </div>
               </div>
@@ -652,14 +669,14 @@ const PlansPage = () => {
             </div>
             <div className="featurerow10">
               <div className="featurecell10">
-                <div className="content3">
+                <div className="content4">
                   <div className="feature-name3">Integration Services</div>
                   <div className="description">Description</div>
                 </div>
                 <div className="infotooltip3">
                   <div className="icon">
                     <div className="icon30">
-                      <img className="icon31" alt="" src="/icon18.svg" />
+                      <img className="icon31" alt="" src="/icon16.svg" />
                     </div>
                     <div className="tooltip">
                       <div className="arrow12">
@@ -675,7 +692,7 @@ const PlansPage = () => {
                           />
                         </div>
                         <div className="tooltip7">
-                          <div className="info">
+                          <div className="content12">
                             <div className="text9">
                               <b className="tooltip-title3">Tooltip Title</b>
                               <div className="text10">
@@ -693,7 +710,7 @@ const PlansPage = () => {
                                   <img
                                     className="icon83"
                                     alt=""
-                                    src="/icon19.svg"
+                                    src="/icon18.svg"
                                   />
                                 </div>
                               </div>
@@ -731,7 +748,7 @@ const PlansPage = () => {
               <div className="cell">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon16.svg" />
+                    <img className="icon1" alt="" src="/icon14.svg" />
                   </div>
                 </div>
               </div>
@@ -747,14 +764,14 @@ const PlansPage = () => {
             </div>
             <div className="featurerow11">
               <div className="featurecell10">
-                <div className="content3">
+                <div className="content4">
                   <div className="feature-name3">Best Practices Review</div>
                   <div className="description">Description</div>
                 </div>
                 <div className="infotooltip3">
                   <div className="icon">
                     <div className="icon30">
-                      <img className="icon31" alt="" src="/icon18.svg" />
+                      <img className="icon31" alt="" src="/icon16.svg" />
                     </div>
                     <div className="tooltip">
                       <div className="arrow12">
@@ -770,7 +787,7 @@ const PlansPage = () => {
                           />
                         </div>
                         <div className="tooltip7">
-                          <div className="info">
+                          <div className="content12">
                             <div className="text9">
                               <b className="tooltip-title3">Tooltip Title</b>
                               <div className="text10">
@@ -788,7 +805,7 @@ const PlansPage = () => {
                                   <img
                                     className="icon83"
                                     alt=""
-                                    src="/icon19.svg"
+                                    src="/icon18.svg"
                                   />
                                 </div>
                               </div>
@@ -826,14 +843,14 @@ const PlansPage = () => {
               <div className="cell">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon16.svg" />
+                    <img className="icon1" alt="" src="/icon14.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell1">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon15.svg" />
+                    <img className="icon1" alt="" src="/icon13.svg" />
                   </div>
                 </div>
               </div>
@@ -846,14 +863,14 @@ const PlansPage = () => {
             </div>
             <div className="featurerow12">
               <div className="featurecell12">
-                <div className="content3">
+                <div className="content4">
                   <div className="feature-name3">Named TAM</div>
                   <div className="description">Description</div>
                 </div>
                 <div className="infotooltip3">
                   <div className="icon">
                     <div className="icon30">
-                      <img className="icon31" alt="" src="/icon18.svg" />
+                      <img className="icon31" alt="" src="/icon16.svg" />
                     </div>
                     <div className="tooltip">
                       <div className="arrow12">
@@ -869,7 +886,114 @@ const PlansPage = () => {
                           />
                         </div>
                         <div className="tooltip7">
-                          <div className="info">
+                          <div className="content12">
+                            <div className="text9">
+                              <b className="tooltip-title3">Tooltip Title</b>
+                              <div className="text10">
+                                <p className="customers-with-a">{`Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. `}</p>
+                                <p className="customers-with-a">&nbsp;</p>
+                                <p className="customers-with-a">
+                                  Nulla mollis sapien sollicitudin lacinia
+                                  lacinia.
+                                </p>
+                              </div>
+                            </div>
+                            <div className="iconbutton">
+                              <div className="iconbox">
+                                <div className="icon82">
+                                  <img
+                                    className="icon83"
+                                    alt=""
+                                    src="/icon18.svg"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="slot">
+                            <div className="slot1">Slot</div>
+                          </div>
+                        </div>
+                        <div className="arrow14">
+                          <img
+                            className="arrow-icon"
+                            alt=""
+                            src="/arrow1.svg"
+                          />
+                          <img
+                            className="stroke-icon1"
+                            alt=""
+                            src="/stroke1.svg"
+                          />
+                        </div>
+                      </div>
+                      <div className="arrow15">
+                        <img className="arrow-icon" alt="" src="/arrow2.svg" />
+                        <img
+                          className="stroke-icon"
+                          alt=""
+                          src="/stroke2.svg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="cell">
+                <div className="iconbox">
+                  <div className="check-circle">
+                    <img className="icon1" alt="" src="/icon14.svg" />
+                  </div>
+                </div>
+              </div>
+              <div className="cell1">
+                <div className="iconbox">
+                  <div className="check-circle">
+                    <img className="icon1" alt="" src="/icon13.svg" />
+                  </div>
+                </div>
+              </div>
+              <div className="cell38">
+                <div className="tag4">
+                  <div className="tag5">Paid Add-on</div>
+                </div>
+                <div className="upgrade-using-add">Paid Add-on</div>
+              </div>
+              <div className="cell51">
+                <div className="tag4">
+                  <div className="tag5">Paid Add-on</div>
+                </div>
+                <div className="upgrade-using-add">Paid Add-on</div>
+              </div>
+            </div>
+            <div className="featurerow13">
+              <div className="featurecell3">
+                <div className="content4">
+                  <div className="feature-name3">
+                    Named Customer Success Manager
+                  </div>
+                  <div className="description">Description</div>
+                </div>
+                <div className="infotooltip3">
+                  <div className="icon">
+                    <div className="icon30">
+                      <img className="icon31" alt="" src="/icon16.svg" />
+                    </div>
+                    <div className="tooltip">
+                      <div className="arrow12">
+                        <img className="arrow-icon" alt="" src="/arrow.svg" />
+                        <img className="stroke-icon" alt="" src="/stroke.svg" />
+                      </div>
+                      <div className="column3">
+                        <div className="arrow13">
+                          <img
+                            className="arrow-icon"
+                            alt=""
+                            src="/arrowpath1.svg"
+                          />
+                        </div>
+                        <div className="tooltip7">
+                          <div className="content12">
                             <div className="text9">
                               <b className="tooltip-title3">Tooltip Title</b>
                               <div className="text10">
@@ -925,149 +1049,42 @@ const PlansPage = () => {
               <div className="cell">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon16.svg" />
+                    <img className="icon1" alt="" src="/icon14.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell1">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon15.svg" />
-                  </div>
-                </div>
-              </div>
-              <div className="cell38">
-                <div className="tag4">
-                  <div className="tag5">Paid Add-on</div>
-                </div>
-                <div className="upgrade-using-add">Paid Add-on</div>
-              </div>
-              <div className="cell39">
-                <div className="tag4">
-                  <div className="tag5">Paid Add-on</div>
-                </div>
-                <div className="upgrade-using-add">Paid Add-on</div>
-              </div>
-            </div>
-            <div className="featurerow13">
-              <div className="featurecell3">
-                <div className="content3">
-                  <div className="feature-name3">
-                    Named Customer Success Manager
-                  </div>
-                  <div className="description">Description</div>
-                </div>
-                <div className="infotooltip3">
-                  <div className="icon">
-                    <div className="icon30">
-                      <img className="icon31" alt="" src="/icon18.svg" />
-                    </div>
-                    <div className="tooltip">
-                      <div className="arrow12">
-                        <img className="arrow-icon" alt="" src="/arrow.svg" />
-                        <img className="stroke-icon" alt="" src="/stroke.svg" />
-                      </div>
-                      <div className="column3">
-                        <div className="arrow13">
-                          <img
-                            className="arrow-icon"
-                            alt=""
-                            src="/arrowpath1.svg"
-                          />
-                        </div>
-                        <div className="tooltip7">
-                          <div className="info">
-                            <div className="text9">
-                              <b className="tooltip-title3">Tooltip Title</b>
-                              <div className="text10">
-                                <p className="customers-with-a">{`Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. `}</p>
-                                <p className="customers-with-a">&nbsp;</p>
-                                <p className="customers-with-a">
-                                  Nulla mollis sapien sollicitudin lacinia
-                                  lacinia.
-                                </p>
-                              </div>
-                            </div>
-                            <div className="iconbutton">
-                              <div className="iconbox">
-                                <div className="icon82">
-                                  <img
-                                    className="icon83"
-                                    alt=""
-                                    src="/icon20.svg"
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="slot">
-                            <div className="slot1">Slot</div>
-                          </div>
-                        </div>
-                        <div className="arrow14">
-                          <img
-                            className="arrow-icon"
-                            alt=""
-                            src="/arrow1.svg"
-                          />
-                          <img
-                            className="stroke-icon1"
-                            alt=""
-                            src="/stroke3.svg"
-                          />
-                        </div>
-                      </div>
-                      <div className="arrow15">
-                        <img className="arrow-icon" alt="" src="/arrow2.svg" />
-                        <img
-                          className="stroke-icon"
-                          alt=""
-                          src="/stroke2.svg"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="cell">
-                <div className="iconbox">
-                  <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon16.svg" />
-                  </div>
-                </div>
-              </div>
-              <div className="cell1">
-                <div className="iconbox">
-                  <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon15.svg" />
+                    <img className="icon1" alt="" src="/icon13.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell2">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon13.svg" />
+                    <img className="icon1" alt="" src="/icon12.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell3">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon13.svg" />
+                    <img className="icon1" alt="" src="/icon12.svg" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="featurerow4">
               <div className="featurecell14">
-                <div className="content3">
+                <div className="content4">
                   <div className="feature-name3">Security Response Team</div>
                   <div className="description">Description</div>
                 </div>
                 <div className="infotooltip3">
                   <div className="icon">
                     <div className="icon30">
-                      <img className="icon31" alt="" src="/icon18.svg" />
+                      <img className="icon31" alt="" src="/icon16.svg" />
                     </div>
                     <div className="tooltip">
                       <div className="arrow12">
@@ -1083,7 +1100,7 @@ const PlansPage = () => {
                           />
                         </div>
                         <div className="tooltip7">
-                          <div className="info">
+                          <div className="content12">
                             <div className="text9">
                               <b className="tooltip-title3">Tooltip Title</b>
                               <div className="text10">
@@ -1101,7 +1118,7 @@ const PlansPage = () => {
                                   <img
                                     className="icon83"
                                     alt=""
-                                    src="/icon19.svg"
+                                    src="/icon18.svg"
                                   />
                                 </div>
                               </div>
@@ -1120,7 +1137,7 @@ const PlansPage = () => {
                           <img
                             className="stroke-icon1"
                             alt=""
-                            src="/stroke3.svg"
+                            src="/stroke1.svg"
                           />
                         </div>
                       </div>
@@ -1139,14 +1156,14 @@ const PlansPage = () => {
               <div className="cell">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon16.svg" />
+                    <img className="icon1" alt="" src="/icon14.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell1">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon15.svg" />
+                    <img className="icon1" alt="" src="/icon13.svg" />
                   </div>
                 </div>
               </div>
@@ -1162,14 +1179,14 @@ const PlansPage = () => {
             </div>
             <div className="featurerow15">
               <div className="featurecell12">
-                <div className="content3">
+                <div className="content4">
                   <div className="feature-name3">Slack Channel</div>
                   <div className="description">Description</div>
                 </div>
                 <div className="infotooltip3">
                   <div className="icon">
                     <div className="icon30">
-                      <img className="icon31" alt="" src="/icon18.svg" />
+                      <img className="icon31" alt="" src="/icon16.svg" />
                     </div>
                     <div className="tooltip">
                       <div className="arrow12">
@@ -1185,7 +1202,7 @@ const PlansPage = () => {
                           />
                         </div>
                         <div className="tooltip7">
-                          <div className="info">
+                          <div className="content12">
                             <div className="text9">
                               <b className="tooltip-title3">Tooltip Title</b>
                               <div className="text10">
@@ -1203,7 +1220,7 @@ const PlansPage = () => {
                                   <img
                                     className="icon83"
                                     alt=""
-                                    src="/icon19.svg"
+                                    src="/icon18.svg"
                                   />
                                 </div>
                               </div>
@@ -1241,14 +1258,14 @@ const PlansPage = () => {
               <div className="cell">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon16.svg" />
+                    <img className="icon1" alt="" src="/icon14.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell1">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon15.svg" />
+                    <img className="icon1" alt="" src="/icon13.svg" />
                   </div>
                 </div>
               </div>
@@ -1258,7 +1275,7 @@ const PlansPage = () => {
                 </div>
                 <div className="upgrade-using-add">Upgrade using Add On</div>
               </div>
-              <div className="cell39">
+              <div className="cell51">
                 <div className="tag4">
                   <div className="tag5">Paid Add-on</div>
                 </div>
@@ -1272,7 +1289,7 @@ const PlansPage = () => {
             </div>
             <div className="featurerow16">
               <div className="featurecell3">
-                <div className="content3">
+                <div className="content4">
                   <div className="feature-name3">ISO 27001</div>
                   <div className="description">
                     Compliance feature, information security certification.
@@ -1281,7 +1298,7 @@ const PlansPage = () => {
                 <div className="infotooltip3">
                   <div className="icon">
                     <div className="icon30">
-                      <img className="icon31" alt="" src="/icon18.svg" />
+                      <img className="icon31" alt="" src="/icon20.svg" />
                     </div>
                     <div className="tooltip">
                       <div className="arrow12">
@@ -1297,7 +1314,7 @@ const PlansPage = () => {
                           />
                         </div>
                         <div className="tooltip7">
-                          <div className="info">
+                          <div className="content12">
                             <div className="text9">
                               <b className="tooltip-title3">Tooltip Title</b>
                               <div className="text10">
@@ -1353,35 +1370,35 @@ const PlansPage = () => {
               <div className="cell">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon13.svg" />
+                    <img className="icon1" alt="" src="/icon12.svg" />
                   </div>
                 </div>
               </div>
-              <div className="cell1">
+              <div className="cell65">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon14.svg" />
+                    <img className="icon1" alt="" src="/icon17.svg" />
                   </div>
                 </div>
               </div>
-              <div className="cell2">
+              <div className="cell66">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon13.svg" />
+                    <img className="icon1" alt="" src="/icon12.svg" />
                   </div>
                 </div>
               </div>
-              <div className="cell3">
+              <div className="cell67">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon13.svg" />
+                    <img className="icon1" alt="" src="/icon12.svg" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="featurerow17">
               <div className="featurecell17">
-                <div className="content3">
+                <div className="content4">
                   <div className="feature-name3">{`PCI DSS 4.0 `}</div>
                   <div className="description">
                     Azion might give early access to new features for customers
@@ -1393,7 +1410,7 @@ const PlansPage = () => {
                 <div className="infotooltip3">
                   <div className="icon">
                     <div className="icon30">
-                      <img className="icon31" alt="" src="/icon18.svg" />
+                      <img className="icon31" alt="" src="/icon16.svg" />
                     </div>
                     <div className="tooltip">
                       <div className="arrow12">
@@ -1409,7 +1426,7 @@ const PlansPage = () => {
                           />
                         </div>
                         <div className="tooltip7">
-                          <div className="info">
+                          <div className="content12">
                             <div className="text9">
                               <b className="tooltip-title3">Tooltip Title</b>
                               <div className="text10">
@@ -1465,42 +1482,42 @@ const PlansPage = () => {
               <div className="cell8">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon16.svg" />
+                    <img className="icon1" alt="" src="/icon14.svg" />
                   </div>
                 </div>
               </div>
-              <div className="cell8">
+              <div className="cell69">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon15.svg" />
-                  </div>
-                </div>
-              </div>
-              <div className="cell8">
-                <div className="icon12">
-                  <div className="check-circle">
                     <img className="icon1" alt="" src="/icon13.svg" />
                   </div>
                 </div>
               </div>
-              <div className="cell8">
+              <div className="cell69">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon13.svg" />
+                    <img className="icon1" alt="" src="/icon12.svg" />
+                  </div>
+                </div>
+              </div>
+              <div className="cell69">
+                <div className="icon12">
+                  <div className="check-circle">
+                    <img className="icon1" alt="" src="/icon12.svg" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="featurerow17">
               <div className="featurecell3">
-                <div className="content3">
+                <div className="content4">
                   <div className="feature-name3">SOC 2 Type 2 (and SOC 3)</div>
                   <div className="description">Federated authentication</div>
                 </div>
                 <div className="infotooltip3">
                   <div className="icon">
                     <div className="icon30">
-                      <img className="icon31" alt="" src="/icon18.svg" />
+                      <img className="icon31" alt="" src="/icon16.svg" />
                     </div>
                     <div className="tooltip">
                       <div className="arrow12">
@@ -1516,7 +1533,7 @@ const PlansPage = () => {
                           />
                         </div>
                         <div className="tooltip7">
-                          <div className="info">
+                          <div className="content12">
                             <div className="text9">
                               <b className="tooltip-title3">Tooltip Title</b>
                               <div className="text10">
@@ -1572,244 +1589,32 @@ const PlansPage = () => {
               <div className="cell">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon16.svg" />
+                    <img className="icon1" alt="" src="/icon14.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell1">
                 <div className="iconbox">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon15.svg" />
+                    <img className="icon1" alt="" src="/icon13.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell2">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon13.svg" />
+                    <img className="icon1" alt="" src="/icon12.svg" />
                   </div>
                 </div>
               </div>
               <div className="cell3">
                 <div className="icon12">
                   <div className="check-circle">
-                    <img className="icon1" alt="" src="/icon13.svg" />
+                    <img className="icon1" alt="" src="/icon12.svg" />
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div className="footer">
-        <div className="infos">
-          <div className="left">
-            <div className="azion-logo">
-              <img className="vector-icon" alt="" src="/vector4.svg" />
-              <img className="vector-icon1" alt="" src="/vector5.svg" />
-            </div>
-            <div className="info">
-              <div className="for-sales-we">{`For sales and support we are available at `}</div>
-              <div className="for-sales-we1">+1 (833) 33-AZION</div>
-            </div>
-          </div>
-          <div className="links">
-            <div className="links1">
-              <b className="resources">Resources</b>
-              <div className="stack">
-                <div className="link">
-                  <a
-                    className="example-link-title"
-                    href="https://www.azion.com/en/blog/"
-                  >
-                    Blog
-                  </a>
-                  <div className="tag20">
-                    <div className="tag5">Tag</div>
-                  </div>
-                </div>
-                <div className="link">
-                  <a
-                    className="example-link-title"
-                    href="https://www.azion.com/en/marketplace/"
-                  >
-                    Marketplace
-                  </a>
-                  <div className="tag20">
-                    <div className="tag5">Tag</div>
-                  </div>
-                </div>
-                <div className="link">
-                  <a
-                    className="example-link-title"
-                    href="https://www.azion.com/en/success-case/"
-                  >
-                    Success Cases
-                  </a>
-                  <div className="tag20">
-                    <div className="tag5">Tag</div>
-                  </div>
-                </div>
-                <div className="link">
-                  <a
-                    className="example-link-title"
-                    href="https://www.azion.com/en/compliance/"
-                  >
-                    Compliance
-                  </a>
-                  <div className="tag20">
-                    <div className="tag5">Tag</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="links1">
-              <b className="resources">Company</b>
-              <div className="stack">
-                <div className="link">
-                  <a
-                    className="example-link-title"
-                    href="https://www.azion.com/en/about-us/"
-                  >
-                    About us
-                  </a>
-                  <div className="tag20">
-                    <div className="tag5">Tag</div>
-                  </div>
-                </div>
-                <div className="link">
-                  <div className="example-link-title5">Azion Edge Network</div>
-                  <div className="tag20">
-                    <div className="tag5">Tag</div>
-                  </div>
-                </div>
-                <div className="link">
-                  <a className="example-link-title">Careers</a>
-                  <div className="tag32">
-                    <div className="tag5">We are hiring!</div>
-                  </div>
-                </div>
-                <div className="link">
-                  <a className="example-link-title">Partners</a>
-                  <div className="tag20">
-                    <div className="tag5">Tag</div>
-                  </div>
-                </div>
-                <div className="link">
-                  <a className="example-link-title">Privacy Policy</a>
-                  <div className="tag20">
-                    <div className="tag5">Tag</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="links1">
-              <b className="resources">Pricing</b>
-              <div className="stack">
-                <div className="link">
-                  <a className="example-link-title">Plans</a>
-                  <div className="tag20">
-                    <div className="tag5">Tag</div>
-                  </div>
-                </div>
-                <div className="link">
-                  <a className="example-link-title">Pricing</a>
-                  <div className="tag20">
-                    <div className="tag5">Tag</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="links1">
-              <b className="resources">Contact Us</b>
-              <div className="stack">
-                <div className="link">
-                  <a className="example-link-title">Sales</a>
-                  <div className="tag20">
-                    <div className="tag5">Tag</div>
-                  </div>
-                </div>
-                <div className="link12">
-                  <div className="example-link-title5">Support</div>
-                  <div className="tag20">
-                    <div className="tag5">Tag</div>
-                  </div>
-                </div>
-                <div className="link">
-                  <a className="example-link-title">Facebook</a>
-                  <div className="tag20">
-                    <div className="tag5">Tag</div>
-                  </div>
-                </div>
-                <div className="link">
-                  <a className="example-link-title">Twitter</a>
-                  <div className="tag20">
-                    <div className="tag5">Tag</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="social">
-          <div className="row4">
-            <DropdownButton
-              className="select-field"
-              title="English"
-              variant="primary"
-              align="start"
-              drop="down"
-            >
-              <Dropdown.Item>Portuguese</Dropdown.Item>
-              <Dropdown.Item>Spanish</Dropdown.Item>
-            </DropdownButton>
-            <div className="social-btn">
-              <a
-                className="iconbutton9"
-                href="https://www.facebook.com/aziontech/"
-                target="_blank"
-              >
-                <div className="check-circle">
-                  <img className="icon166" alt="" src="/icon22.svg" />
-                </div>
-              </a>
-              <a
-                className="iconbutton9"
-                href="https://twitter.com/aziontech"
-                target="_blank"
-              >
-                <div className="check-circle">
-                  <img className="icon166" alt="" src="/icon23.svg" />
-                </div>
-              </a>
-              <a
-                className="iconbutton9"
-                href="https://www.linkedin.com/company/aziontech/"
-                target="_blank"
-              >
-                <div className="check-circle">
-                  <img className="icon166" alt="" src="/icon24.svg" />
-                </div>
-              </a>
-              <a
-                className="iconbutton9"
-                href="https://www.instagram.com/aziontech/?hl=en"
-                target="_blank"
-              >
-                <div className="check-circle">
-                  <img className="icon166" alt="" src="/icon25.svg" />
-                </div>
-              </a>
-              <div className="iconbutton13">
-                <div className="youtube-logo">
-                  <img className="icon166" alt="" src="/icon26.svg" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="copyright-2020">
-            Copyright © 2020, Azion Technologies, Inc. or its affiliates. All
-            rights reserved.
           </div>
         </div>
       </div>
