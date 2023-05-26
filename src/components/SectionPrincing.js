@@ -14,9 +14,9 @@ const SectionPrincing = () => {
   return (
     <div className="section-pricing" data-scroll-to="sectionPricingContainer">
       <div className="badge-parent">
-        <div className="badge11">
-          <div className="badge-child8" />
-          <b className="b11">3</b>
+        <div className="badge8">
+          <div className="badge-child5" />
+          <b className="b8">3</b>
         </div>
         <div className="tagline2">KNOW OUR PLANS</div>
         <div className="text385">
@@ -32,12 +32,12 @@ const SectionPrincing = () => {
           <div className="card15">
             <div className="content47">
               <b className="title11">Business</b>
-              <div className="price8">
+              <div className="price7">
                 <span>{`Starting at `}</span>
                 <b>{`$250 `}</b>
                 <span>/month</span>
               </div>
-              <div className="price8">
+              <div className="price7">
                 <span>{`We recommend the Business Plan `}</span>
                 <span className="for-customers-looking">
                   for customers looking for efficient and accessible
@@ -45,20 +45,20 @@ const SectionPrincing = () => {
                 </span>
               </div>
             </div>
-            <button className="button29">
-              <div className="label33">get business</div>
-              <img className="icon280" alt="" src="/icon5.svg" />
+            <button className="button26">
+              <div className="label30">get business</div>
+              <img className="icon277" alt="" src="/icon51.svg" />
             </button>
           </div>
           <div className="card15">
             <div className="content47">
               <b className="title12">Enterprise</b>
-              <div className="price8">
+              <div className="price7">
                 <span>{`Starting at `}</span>
                 <b>{`$5,000 `}</b>
                 <span>/month</span>
               </div>
-              <div className="price8">
+              <div className="price7">
                 <span>We recommend the Enterprise Plan</span>
                 <span className="for-customers-looking">
                   {" "}
@@ -66,15 +66,15 @@ const SectionPrincing = () => {
                 </span>
               </div>
             </div>
-            <button className="button29">
-              <div className="label33">get enterprise</div>
-              <img className="icon280" alt="" src="/icon5.svg" />
+            <button className="button26">
+              <div className="label30">get enterprise</div>
+              <img className="icon277" alt="" src="/icon51.svg" />
             </button>
           </div>
           <div className="content50">
             <div className="content51">
               <b className="title13">Mission Critical</b>
-              <div className="price10">Custom</div>
+              <div className="price9">Custom</div>
               <div className="description94">
                 <span>We recommend the Mission-Critical Plan</span>
                 <span className="for-customers-looking">
@@ -84,9 +84,9 @@ const SectionPrincing = () => {
                 </span>
               </div>
             </div>
-            <button className="button29">
-              <div className="label33">get mission critical</div>
-              <img className="icon280" alt="" src="/icon4.svg" />
+            <button className="button26">
+              <div className="label30">get mission critical</div>
+              <img className="icon277" alt="" src="/icon43.svg" />
             </button>
           </div>
         </div>
@@ -95,7 +95,7 @@ const SectionPrincing = () => {
             Check the features of each Azion Plan
           </div>
           <div className="chevron-right13">
-            <img className="icon283" alt="" src="/icon6.svg" />
+            <img className="icon280" alt="" src="/icon18.svg" />
           </div>
         </button>
       </div>

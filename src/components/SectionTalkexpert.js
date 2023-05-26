@@ -3,9 +3,9 @@ const SectionTalkexpert = () => {
   return (
     <div className="section-talkexpert">
       <div className="content45">
-        <div className="badge10">
-          <div className="badge-child7" />
-          <b className="b10">2</b>
+        <div className="badge7">
+          <div className="badge-child4" />
+          <b className="b7">2</b>
         </div>
         <div className="tagline1">SAVE WHEN YOU COMMIT</div>
         <div className="text384">
@@ -20,18 +20,18 @@ const SectionTalkexpert = () => {
             to 78%.
           </div>
         </div>
-        <button className="button27">
-          <div className="label31">talk to an expert</div>
-          <img className="icon278" alt="" src="/icon3.svg" />
+        <button className="button24">
+          <div className="label28">talk to an expert</div>
+          <img className="icon275" alt="" src="/icon17.svg" />
         </button>
       </div>
       <div className="ilustration-chart">
-        <div className="div12">2</div>
-        <div className="div13">3</div>
-        <div className="div14">4</div>
-        <div className="div15">5</div>
-        <div className="div16">1</div>
-        <div className="div17">0</div>
+        <div className="div10">2</div>
+        <div className="div11">3</div>
+        <div className="div12">4</div>
+        <div className="div13">5</div>
+        <div className="div14">1</div>
+        <div className="div15">0</div>
         <img className="ilustration-chart-child" alt="" src="/group-47.svg" />
         <img className="ilustration-chart-item" alt="" src="/ellipse-17.svg" />
         <div className="traffic">Traffic</div>

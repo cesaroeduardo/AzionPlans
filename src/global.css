@@ -6,75 +6,73 @@ body {
 }
 :root {
   /* fonts */
-  --special-large-1600-headline-h2: Roboto;
   --row-secondary-text: "Source Sans Pro";
+  --special-large-1600-body-small: Roboto;
 
   /* font sizes */
-  --special-large-1600-body-small-size: 16px;
-  --medium-640-body-small-size: 14px;
-  --font-size-lg: 18px;
-  --special-large-1600-body-medium-default-size: 20px;
-  --special-large-1600-body-large-size: 22px;
-  --font-size-xs: 12px;
-  --special-large-1600-headline-h5-size: 26px;
-  --special-large-1600-headline-h2-size: 42px;
-  --font-size-37xl: 56px;
-  --special-large-1600-headline-h4-size: 32px;
-  --slg-1600px-h2-slg1600-section-title-size: 48px;
   --row-secondary-text-size: 13px;
+  --special-large-1600-body-small-size: 16px;
+  --special-large-1600-body-large-size: 22px;
+  --special-large-1600-body-medium-default-size: 20px;
+  --special-large-1600-headline-h5-size: 26px;
+  --special-large-1600-headline-h4-size: 32px;
+  --font-size-xs: 12px;
+  --medium-640-body-small-size: 14px;
+  --font-size-37xl: 56px;
+  --slg-1600px-h2-slg1600-section-title-size: 48px;
+  --font-size-lg: 18px;
+  --special-large-1600-headline-h2-size: 42px;
 
   /* Colors */
-  --light-background-base: #f2f2f2;
+  --light-background-super: #fff;
   --color-gainsboro-100: #e7e7ed;
   --global-neutrals-gray-100: #e5e5e5;
-  --super-light-theme: #fff;
-  --color-ivory: #f3f9ec;
   --light-border-border-color-strong: #7f7f7f;
   --color-gray-100: #272833;
-  --light-text-text-color-strong: #1e1e1e;
-  --color-gray-200: rgba(255, 255, 255, 0);
-  --light-text-text-color-weak: #b2b2b2;
-  --light-text-text-color-medium: #666;
+  --light-text-strong: #1e1e1e;
+  --light-text-medium: #666;
   --neutrals-gray-700: #4d4d4d;
+  --light-background-base: #f2f2f2;
   --primary-color-primary: #f3652b;
+  --dark-background-base: #333;
+  --dark-text-medium: #b2b2b2;
+  --color-ivory: #f3f9ec;
   --light-specific-tokens-tags-background-tag-background-orange-base: #fcdccf;
   --light-specific-tokens-tags-text-tag-text-color-orange-base: #994000;
-  --dark-background-base: #333;
 
   /* Gaps */
-  --gap-45xl: 64px;
-  --gap-9xs: 4px;
+  --gap-21xl: 40px;
   --gap-base: 16px;
   --gap-5xs: 8px;
-  --gap-29xl: 48px;
-  --gap-13xl: 32px;
   --gap-5xl: 24px;
+  --gap-15xl: 34px;
   --gap-61xl: 80px;
   --gap-12xs: 1px;
-  --gap-21xl: 40px;
-  --gap-15xl: 34px;
+  --gap-45xl: 64px;
+  --gap-9xs: 4px;
+  --gap-29xl: 48px;
+  --gap-13xl: 32px;
 
   /* Paddings */
-  --padding-141xl: 160px;
+  --padding-21xl: 40px;
+  --padding-13xl: 32px;
   --padding-base: 16px;
   --padding-5xl: 24px;
-  --padding-9xs: 4px;
   --padding-5xs: 8px;
+  --padding-9xs: 4px;
+  --padding-37xl: 56px;
+  --padding-141xl: 160px;
+  --padding-121xl: 140px;
+  --padding-11xl: 30px;
   --padding-77xl: 96px;
   --padding-117xl: 136px;
-  --padding-13xl: 32px;
-  --padding-11xl: 30px;
   --padding-61xl: 80px;
-  --padding-37xl: 56px;
-  --padding-121xl: 140px;
-  --padding-21xl: 40px;
 
   /* border radiuses */
   --br-9xs: 4px;
+  --br-11xs: 2px;
   --br-481xl: 500px;
   --br-78xl-8: 97.8px;
-  --br-11xs: 2px;
-  --br-81xl: 100px;
 
   /* Effects */
   --light-shadow-level-4: 0px 24px 32px rgba(0, 0, 0, 0.08);

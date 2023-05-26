@@ -1,4 +1,4 @@
-.badge-child7 {
+.badge-child4 {
   position: absolute;
   height: 96%;
   width: 100%;
@@ -9,13 +9,13 @@
   border-radius: 50%;
   background-color: var(--primary-color-primary);
 }
-.b10 {
+.b7 {
   position: absolute;
   top: 4%;
   left: 29.17%;
   line-height: 150%;
 }
-.badge10 {
+.badge7 {
   position: relative;
   width: 24px;
   height: 25px;
@@ -39,11 +39,11 @@
 .description89 {
   font-size: var(--special-large-1600-body-medium-default-size);
   line-height: 180%;
-  color: var(--light-text-text-color-medium);
+  color: var(--light-text-medium);
 }
-.label31,
+.label28,
 .text384 {
-  color: var(--light-text-text-color-strong);
+  color: var(--light-text-strong);
 }
 .text384 {
   align-self: stretch;
@@ -54,29 +54,29 @@
   gap: var(--gap-13xl);
   font-size: var(--special-large-1600-headline-h2-size);
 }
-.label31 {
+.label28 {
   position: relative;
   font-size: var(--special-large-1600-body-small-size);
   letter-spacing: -0.01em;
   line-height: 16px;
   text-transform: lowercase;
   font-weight: 500;
-  font-family: var(--special-large-1600-headline-h2);
+  font-family: var(--special-large-1600-body-small);
   text-align: left;
 }
-.icon278 {
+.icon275 {
   position: relative;
   width: 16px;
   height: 16px;
 }
-.button27,
+.button24,
 .content45 {
   display: flex;
   justify-content: flex-start;
 }
-.button27 {
+.button24 {
   cursor: pointer;
-  border: 2px solid var(--light-text-text-color-strong);
+  border: 2px solid var(--light-text-strong);
   padding: var(--padding-base);
   background-color: transparent;
   border-radius: var(--br-11xs);
@@ -90,12 +90,12 @@
   align-items: flex-start;
   gap: var(--gap-13xl);
 }
+.div10,
+.div11,
 .div12,
 .div13,
 .div14,
-.div15,
-.div16,
-.div17 {
+.div15 {
   position: absolute;
   height: calc(100% - 588.34px);
   top: 343.94px;
@@ -106,30 +106,30 @@
   width: 13.18px;
   opacity: 0.34;
 }
+.div11,
+.div12,
 .div13,
 .div14,
-.div15,
-.div16,
-.div17 {
+.div15 {
   top: 252.28px;
 }
+.div12,
+.div13,
 .div14,
-.div15,
-.div16,
-.div17 {
+.div15 {
   top: 160.61px;
 }
-.div15,
-.div16,
-.div17 {
+.div13,
+.div14,
+.div15 {
   top: 68.95px;
 }
-.div16,
-.div17 {
+.div14,
+.div15 {
   top: 435.6px;
   width: 9.06px;
 }
-.div17 {
+.div15 {
   top: 527.27px;
   width: 13.18px;
 }
@@ -165,7 +165,7 @@
   top: 204.95px;
   right: 30.2px;
   line-height: 180%;
-  color: var(--light-text-text-color-medium);
+  color: var(--light-text-medium);
 }
 .cost,
 .revenue {
@@ -226,8 +226,8 @@
   gap: var(--gap-45xl);
   text-align: left;
   font-size: var(--special-large-1600-body-small-size);
-  color: var(--super-light-theme);
-  font-family: var(--special-large-1600-headline-h2);
+  color: var(--light-background-super);
+  font-family: var(--special-large-1600-body-small);
 }
 @media screen and (max-width: 1200px) {
   .description89,

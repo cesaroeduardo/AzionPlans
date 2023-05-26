@@ -3,9 +3,9 @@ const SectionSignup = () => {
   return (
     <div className="section-signup">
       <div className="content44">
-        <div className="badge9">
-          <div className="badge-child6" />
-          <b className="b9">1</b>
+        <div className="badge6">
+          <div className="badge-child3" />
+          <b className="b6">1</b>
         </div>
         <div className="tagline">start for free</div>
         <div className="text383">
@@ -18,9 +18,9 @@ const SectionSignup = () => {
             multi-cloud, on-premise or remote-device deployment.
           </div>
         </div>
-        <button className="button26">
-          <div className="label30">create free account</div>
-          <img className="icon277" alt="" src="/icon.svg" />
+        <button className="button23">
+          <div className="label27">create free account</div>
+          <img className="icon274" alt="" src="/icon8.svg" />
         </button>
       </div>
     </div>

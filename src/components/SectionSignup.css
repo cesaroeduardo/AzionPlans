@@ -1,4 +1,4 @@
-.badge-child6 {
+.badge-child3 {
   position: absolute;
   height: 96%;
   width: 100%;
@@ -9,13 +9,13 @@
   border-radius: 50%;
   background-color: var(--primary-color-primary);
 }
-.b9 {
+.b6 {
   position: absolute;
   top: 4%;
   left: 29.17%;
   line-height: 150%;
 }
-.badge9 {
+.badge6 {
   position: relative;
   width: 24px;
   height: 25px;
@@ -39,11 +39,11 @@
   font-size: var(--special-large-1600-body-large-size);
   line-height: 170%;
   font-weight: 500;
-  color: var(--light-text-text-color-medium);
+  color: var(--light-text-medium);
 }
-.label30,
+.label27,
 .text383 {
-  color: var(--light-text-text-color-strong);
+  color: var(--light-text-strong);
 }
 .text383 {
   align-self: stretch;
@@ -54,28 +54,28 @@
   gap: var(--gap-45xl);
   font-size: var(--special-large-1600-headline-h2-size);
 }
-.label30 {
+.label27 {
   position: relative;
   font-size: var(--special-large-1600-body-small-size);
   letter-spacing: -0.01em;
   line-height: 16px;
   text-transform: lowercase;
   font-weight: 500;
-  font-family: var(--special-large-1600-headline-h2);
+  font-family: var(--special-large-1600-body-small);
   text-align: left;
 }
-.icon277 {
+.icon274 {
   position: relative;
   width: 16px;
   height: 16px;
 }
-.button26,
+.button23,
 .content44,
 .section-signup {
   display: flex;
   justify-content: flex-start;
 }
-.button26 {
+.button23 {
   cursor: pointer;
   border: 0;
   padding: var(--padding-base);
@@ -95,13 +95,13 @@
   gap: var(--gap-13xl);
 }
 .section-signup {
-  background-color: var(--super-light-theme);
+  background-color: var(--light-background-super);
   overflow: hidden;
   padding: var(--padding-61xl) var(--padding-141xl);
   text-align: left;
   font-size: var(--special-large-1600-body-small-size);
-  color: var(--super-light-theme);
-  font-family: var(--special-large-1600-headline-h2);
+  color: var(--light-background-super);
+  font-family: var(--special-large-1600-body-small);
 }
 @media screen and (max-width: 1200px) {
   .description88,
