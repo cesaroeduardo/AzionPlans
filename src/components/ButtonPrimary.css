@@ -1,0 +1,39 @@
+.label9 {
+  position: relative;
+  font-size: var(--special-large-1600-body-small-size);
+  letter-spacing: -0.01em;
+  line-height: 16px;
+  text-transform: lowercase;
+  font-weight: 500;
+  font-family: var(--special-large-1600-body-small);
+  color: var(--light-text-strong);
+  text-align: left;
+}
+.icon115 {
+  position: relative;
+  width: 6.24px;
+  height: 10.49px;
+}
+.button-primary {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base);
+  background-color: var(--primary-color-primary);
+  border-radius: var(--br-11xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.button-primary:hover {
+  background-color: var(--light-text-strong);
+  width: auto;
+  height: auto;
+}
+.button-primary:hover .label9 {
+  color: var(--primary-color-primary);
+}
+.button-primary:hover .icon115 {
+  fill: #f3652b;
+}

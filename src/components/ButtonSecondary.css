@@ -1,0 +1,33 @@
+.label10 {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 16px;
+  text-transform: lowercase;
+  font-weight: 500;
+}
+.icon116 {
+  position: relative;
+  width: 6.24px;
+  height: 10.49px;
+}
+.button-secondary {
+  border-radius: var(--br-11xs);
+  border: 2px solid var(--light-background-super);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--special-large-1600-body-small-size);
+  color: var(--light-background-super);
+  font-family: var(--special-large-1600-body-small);
+}
+.button-secondary:hover {
+  width: auto;
+  height: auto;
+  border: 2px solid var(--primary-color-primary);
+  box-sizing: border-box;
+}

@@ -1,8 +1,9 @@
 import { useCallback } from "react";
 import Card from "./Card";
-import "./SectionPrincing.css";
-const SectionPrincing = () => {
-  const onAnchorClick = useCallback(() => {
+import ButtonPrimary from "./ButtonPrimary";
+import "./SectionPricing.css";
+const SectionPricing = () => {
+  const onAchorClick = useCallback(() => {
     const anchor = document.querySelector(
       "[data-scroll-to='sectionFeaturesContainer']"
     );
@@ -13,31 +14,35 @@ const SectionPrincing = () => {
 
   return (
     <div className="section-pricing" data-scroll-to="sectionPricingContainer">
-      <div className="badge-parent">
-        <div className="badge8">
-          <div className="badge-child5" />
-          <b className="b8">3</b>
+      <div className="content15">
+        <div className="badge5">
+          <div className="badge-child2" />
+          <b className="b5">3</b>
         </div>
-        <div className="tagline2">KNOW OUR PLANS</div>
-        <div className="text385">
-          <div className="title10">Which Azion Plan best fits you?</div>
-          <div className="description91">
+        <div className="tagline3">KNOW OUR PLANS</div>
+        <div className="text352">
+          <div className="title22">Which Azion Plan best fits you?</div>
+          <div className="description84">
             From small businesses to large enterprises, our platform and
             flexible service plan options make it easy to choose the one that
             fits your needs.
           </div>
         </div>
-        <div className="row94">
-          <Card title="12312312" />
-          <div className="card15">
-            <div className="content47">
-              <b className="title11">Business</b>
-              <div className="price7">
+        <div className="row90">
+          <Card
+            title="Developer"
+            subtitle="Free"
+            description="We recommend the Developer Plan "
+          />
+          <div className="card12">
+            <div className="content16">
+              <b className="title23">Business</b>
+              <div className="subtitle1">
                 <span>{`Starting at `}</span>
                 <b>{`$250 `}</b>
                 <span>/month</span>
               </div>
-              <div className="price7">
+              <div className="subtitle1">
                 <span>{`We recommend the Business Plan `}</span>
                 <span className="for-customers-looking">
                   for customers looking for efficient and accessible
@@ -45,20 +50,21 @@ const SectionPrincing = () => {
                 </span>
               </div>
             </div>
-            <button className="button26">
-              <div className="label30">get business</div>
-              <img className="icon277" alt="" src="/icon51.svg" />
-            </button>
+            <ButtonPrimary
+              label="get business"
+              buttonPrimaryBorder="none"
+              buttonPrimaryBackgroundColor="#f3652b"
+            />
           </div>
-          <div className="card15">
-            <div className="content47">
-              <b className="title12">Enterprise</b>
-              <div className="price7">
+          <div className="card12">
+            <div className="content16">
+              <b className="title23">Enterprise</b>
+              <div className="subtitle1">
                 <span>{`Starting at `}</span>
                 <b>{`$5,000 `}</b>
                 <span>/month</span>
               </div>
-              <div className="price7">
+              <div className="subtitle1">
                 <span>We recommend the Enterprise Plan</span>
                 <span className="for-customers-looking">
                   {" "}
@@ -66,16 +72,17 @@ const SectionPrincing = () => {
                 </span>
               </div>
             </div>
-            <button className="button26">
-              <div className="label30">get enterprise</div>
-              <img className="icon277" alt="" src="/icon51.svg" />
-            </button>
+            <ButtonPrimary
+              label="get enterprise"
+              buttonPrimaryBorder="none"
+              buttonPrimaryBackgroundColor="#f3652b"
+            />
           </div>
-          <div className="content50">
-            <div className="content51">
-              <b className="title13">Mission Critical</b>
-              <div className="price9">Custom</div>
-              <div className="description94">
+          <div className="content19">
+            <div className="content20">
+              <b className="title25">Mission Critical</b>
+              <div className="subtitle3">Custom</div>
+              <div className="description87">
                 <span>We recommend the Mission-Critical Plan</span>
                 <span className="for-customers-looking">
                   {" "}
@@ -84,18 +91,19 @@ const SectionPrincing = () => {
                 </span>
               </div>
             </div>
-            <button className="button26">
-              <div className="label30">get mission critical</div>
-              <img className="icon277" alt="" src="/icon43.svg" />
-            </button>
+            <ButtonPrimary
+              label="get enterprise"
+              buttonPrimaryBorder="none"
+              buttonPrimaryBackgroundColor="#f3652b"
+            />
           </div>
         </div>
-        <button className="anchor" onClick={onAnchorClick}>
+        <button className="achor" onClick={onAchorClick}>
           <div className="check-the-features">
             Check the features of each Azion Plan
           </div>
           <div className="chevron-right13">
-            <img className="icon280" alt="" src="/icon18.svg" />
+            <img className="icon118" alt="" src="/icon18.svg" />
           </div>
         </button>
       </div>
@@ -103,4 +111,4 @@ const SectionPrincing = () => {
   );
 };
 
-export default SectionPrincing;
+export default SectionPricing;

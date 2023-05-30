@@ -1,83 +1,57 @@
-.price6,
-.title9 {
-  position: relative;
-}
-.title9 {
+.title21 {
   align-self: stretch;
+  position: relative;
   font-size: var(--special-large-1600-headline-h5-size);
   line-height: 150%;
 }
-.price6 {
+.subtitle {
+  position: relative;
   line-height: 180%;
 }
 .if-you-want {
   color: var(--dark-text-medium);
 }
-.description90 {
+.description83 {
   align-self: stretch;
   position: relative;
   line-height: 180%;
 }
-.content46 {
+.card11,
+.content14 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+.content14 {
   justify-content: flex-start;
   gap: var(--gap-5xs);
 }
-.label29 {
-  position: relative;
-  font-size: var(--special-large-1600-body-small-size);
-  letter-spacing: -0.01em;
-  line-height: 16px;
-  text-transform: lowercase;
-  font-weight: 500;
-  font-family: var(--special-large-1600-body-small);
-  color: var(--light-text-strong);
-  text-align: left;
-}
-.icon276 {
-  position: relative;
-  width: 16px;
-  height: 16px;
-}
-.button25 {
-  cursor: pointer;
-  border: 0;
-  padding: var(--padding-base);
-  background-color: var(--primary-color-primary);
-  border-radius: var(--br-11xs);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-base);
-}
-.card14 {
+.card11 {
   flex: 1;
   border-radius: var(--br-9xs);
   background-color: var(--dark-background-base);
-  height: 438px;
-  display: flex;
-  flex-direction: column;
   padding: var(--padding-13xl);
-  box-sizing: border-box;
-  align-items: flex-start;
   justify-content: space-between;
   text-align: left;
   font-size: var(--special-large-1600-body-medium-default-size);
   color: var(--light-background-super);
   font-family: var(--special-large-1600-body-small);
 }
-@media screen and (max-width: 960px) {
-  .content46 {
+@media screen and (max-width: 1440px) {
+  .content14 {
     padding-bottom: var(--padding-11xl);
     box-sizing: border-box;
   }
-  .card14 {
-    flex: unset;
+  .card11 {
+    flex: 1;
+    align-self: stretch;
     height: auto;
+  }
+}
+@media screen and (max-width: 960px) {
+  .card11 {
+    flex: unset;
     align-self: stretch;
   }
 }

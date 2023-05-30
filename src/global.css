@@ -22,6 +22,7 @@ body {
   --slg-1600px-h2-slg1600-section-title-size: 48px;
   --font-size-lg: 18px;
   --special-large-1600-headline-h2-size: 42px;
+  --font-size-9xl: 28px;
 
   /* Colors */
   --light-background-super: #fff;
@@ -63,10 +64,12 @@ body {
   --padding-37xl: 56px;
   --padding-141xl: 160px;
   --padding-121xl: 140px;
+  --padding-61xl: 80px;
+  --padding-29xl: 48px;
   --padding-11xl: 30px;
+  --padding-41xl: 60px;
   --padding-77xl: 96px;
   --padding-117xl: 136px;
-  --padding-61xl: 80px;
 
   /* border radiuses */
   --br-9xs: 4px;
